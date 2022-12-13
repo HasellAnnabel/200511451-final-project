@@ -1,0 +1,68 @@
+.footer-des  {
+  background-color: rgba(220, 217, 214, 0.838);
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.foot {
+
+  justify-content: space-around;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  margin: 20px;
+
+
+
+}
+
+
+footer p{
+
+  color: black;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.foot a {
+  font-size: 2rem;
+  color: brown;
+}
+
+@media  screen and (max-width: 1200px){
+  .foot{
+    font-size: 2rem;
+  }
+  
+}
+
+@media  screen and (max-width: 960px){
+  .foot{
+    font-size: 1.8rem;
+  }
+  .foot a {
+    font-size: 1.8rem;
+  }
+}
+
+@media  screen and (max-width: 760px){
+  .foot{
+    font-size: 1.5rem;
+  }
+  .foot a {
+    font-size: 1.5rem;
+  }
+}
+
+@media  screen and (max-width: 550px){
+  .foot{
+    font-size: 1.2rem;
+  }
+  .foot a {
+    font-size: 1.2rem;
+  }
+}
